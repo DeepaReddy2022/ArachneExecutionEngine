@@ -1,4 +1,5 @@
-FROM odysseusinc/r-env:1.0.16
+ARG DOCKER_IMAGE
+FROM $DOCKER_IMAGE
 MAINTAINER support@odysseusinc.com
 VOLUME /tmp
 VOLUME /libs-r
